@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "CircularStd-Black";
+  src: local("CircularStd-Black"),
+    url("./Fonts/font/CircularStd-Black.woff") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CircularStd-Book";
+  src: local("CircularStd-Book"),
+    url("./Fonts/font/CircularStd-Book.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "CircularStd-Book", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(253, 253, 253);
+}
+
+code {
+  font-family: "CircularStd-Book";
+}
+
+@media screen and (min-width: 601px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,91 @@
+.card--title {
+  font-family: CircularStd-Black;
+  color: #10002b;
+}
+.image--card {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  padding: 20px;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  background-color: white;
+}
+.chifre {
+  font-family: CircularStd-Black;
+  font-size: 50px;
+  padding: 0;
+  color: #10002b4b;
+}
+.step--card {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.step--component {
+  margin-top: 15% !important;
+  margin-bottom: 5% !important;
+}
+.text--temoin {
+  position: absolute;
+  width: 40%;
+  color: #10002b;
+}
+.image--temoin {
+  width: auto;
+  height: 80vh;
+}
+.tem {
+  height: 100%;
+}
+.gar--perso {
+  margin: 15vh 0;
+}
+.gar--perso2 {
+  margin: 15vh 0;
+  z-index: 2000;
+}
+.gar {
+  width: 60vw;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: white;
+}
+.imgGar {
+  position: relative;
+}
+.imgar {
+  position: relative;
+  left: -50%;
+}
+.btn-gar {
+  margin-right: 25px !important;
+  box-shadow: rgba(0, 255, 72, 0.07) 0px 1px 2px,
+    rgba(1, 255, 44, 0.07) 0px 2px 4px, rgba(0, 255, 145, 0.07) 0px 4px 8px,
+    rgba(30, 253, 9, 0.07) 0px 8px 16px, rgba(72, 255, 0, 0.07) 0px 16px 32px,
+    rgba(1, 255, 56, 0.07) 0px 32px 64px;
+  background: #01ae4e !important;
+  border: none;
+}
+
+.price--component {
+  overflow: hidden;
+  background-image: url(../../assets/img/bg-image4.png);
+}
+
+.dollar {
+  font-family: CircularStd-Black;
+  padding: 0;
+  color: #10002b4b;
+}
+
+.familly {
+  position: absolute;
+  right: -10%;
+  z-index: -12;
+}
+
+.list--quest {
+  width: 40%;
+}

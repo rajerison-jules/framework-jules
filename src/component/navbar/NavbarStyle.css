@@ -1,0 +1,75 @@
+.margin--perso {
+  margin-left: 15% !important;
+}
+.margin--perso2 {
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+.menu {
+  z-index: 10000;
+}
+.titre--perso {
+  font-family: CircularStd-Black;
+  color: #10002b;
+}
+.sous--titre {
+  font-size: 0.7rem;
+  color: grey;
+}
+.button--titre {
+  background: rgb(255, 157, 111);
+  background: linear-gradient(
+    143deg,
+    rgba(255, 157, 111, 1) 8%,
+    rgba(245, 162, 162, 1) 40%,
+    rgba(255, 2, 58, 1) 100%
+  );
+  border: none;
+  color: white;
+  box-shadow: rgb(211, 124, 143) 0px 5px 15px;
+}
+.position--perso {
+  position: absolute;
+  top: -260px;
+}
+.titre--container {
+  width: 20vw;
+}
+.banner--perso {
+  position: relative;
+  height: 120vh;
+  top: 0px;
+  width: 100vw;
+  overflow: hidden;
+}
+.banner--perso2 {
+  position: relative;
+  height: 70vh;
+  top: 0px;
+  width: 100vw;
+  overflow: hidden;
+}
+.position--perso2 {
+  position: relative;
+  top: -20vh;
+}
+.containt--body {
+  margin-top: 15vh !important;
+}
+.contenue--text {
+  font-family: CircularStd-Black;
+  position: absolute;
+  width: 40%;
+  left: 50%;
+}
+.paragraph {
+  font-family: CircularStd-Book;
+  color: #000;
+}
+.list--perso:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.list--perso {
+  background: none;
+}

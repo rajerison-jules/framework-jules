@@ -5,7 +5,7 @@ export default function Card(props) {
     <div className="card p-3 border-0 m-3">
       <div className="d-flex justify-content-center w-100 ">
         <div className="image--card" style={{ background: props.bg }}>
-          <img class="card-img-top" src={props.image} alt="Card image cap" />
+          <img className="card-img-top" src={props.image} alt="Card" />
         </div>
       </div>
 

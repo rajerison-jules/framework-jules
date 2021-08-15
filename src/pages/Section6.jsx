@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./../component/card/Price";
-import trans1 from "./../assets/img/after-blue.png";
-import trans2 from "./../assets/img/after-pink.png";
+
 export default function Section2() {
   return (
     <div className="price--component  pl-5">

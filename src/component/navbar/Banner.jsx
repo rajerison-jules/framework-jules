@@ -43,10 +43,10 @@ export default function Banner() {
           </div>
         </div>
         <div className="position relative content3 w-100 ">
-          <div className="imag3 ">
+          <div className="imag3 animate__animated  animate__slower	5s animate__infinite	infinite">
             <img className="im2" src={img2} />
           </div>
-          <div className="imag2">
+          <div className="imag2 animate__animated animate__slower	5s animate__infinite	infinite">
             <img className="im2" src={img3} />
           </div>
           <div className="imag1">

@@ -1,26 +1,15 @@
-@font-face {
-  font-family: "CircularStd-Black";
-  src: local("CircularStd-Black"),
-    url("./Fonts/font/CircularStd-Black.woff") format("truetype");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "CircularStd-Book";
-  src: local("CircularStd-Book"),
-    url("./Fonts/font/CircularStd-Book.ttf") format("truetype");
-  font-weight: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   margin: 0px;
-  font-family: "CircularStd-Book", sans-serif;
+  font-family: "Rubik", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(253, 253, 253);
 }
 
 code {
-  font-family: "CircularStd-Book";
+  font-family: "Rubik";
 }
 
 @media screen and (min-width: 601px) {

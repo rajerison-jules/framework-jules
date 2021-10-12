@@ -33,31 +33,31 @@ function Navbar() {
         </button>
 
         <div
-          className="collapse navbar-collapse  w-100 position-relative navbar--style  animate__animated animate__backInDown "
+          className="collapse navbar-collapse   w-100 position-relative navbar--style  animate__animated animate__backInDown "
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item  ">
-              <span className="m-3 nav-link">Home</span>{" "}
+              <span className="m-3 nav-link text-normal">Home</span>{" "}
             </li>
             <li className="nav-item ">
-              <span className="m-3 nav-link">Work </span>{" "}
+              <span className="m-3 nav-link text-normal">Work </span>{" "}
             </li>
             <li className="nav-item ">
-              <span className="m-3 nav-link ">About </span>{" "}
+              <span className="m-3 nav-link text-normal">About </span>{" "}
             </li>
             <li className="nav-item ">
-              <span className="m-3 nav-link ">Schedule </span>{" "}
+              <span className="m-3 nav-link text-normal">Schedule </span>{" "}
             </li>
             <li className="nav-item ">
-              <span className="m-3 nav-link ">Reviews </span>{" "}
+              <span className="m-3 nav-link text-normal">Reviews </span>{" "}
             </li>
             <li className="nav-item ">
-              <span className="m-3 nav-link ">Blog </span>{" "}
+              <span className="m-3 nav-link text-normal">Blog </span>{" "}
             </li>
             <div></div>
           </ul>
-          <div className="navbar-expand-sm w-100 d-flex align-items-center justify-content-center content--button ml-5 ">
+          <div className="navbar-expand-sm w-100 d-flex align-items-center justify-content-end content--button ml-5 ">
             <button className="btn btn-primary btn--style">Let’s Talk</button>
           </div>
         </div>

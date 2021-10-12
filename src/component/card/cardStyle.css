@@ -1,6 +1,7 @@
 .card--title {
-  font-family: CircularStd-Black;
+  font-family: "Rubik";
   color: #10002b;
+  font-size: max(1vw, 20px);
 }
 .image--card {
   width: 100px;
@@ -13,18 +14,28 @@
   background-color: white;
 }
 .chifre {
-  font-family: CircularStd-Black;
+  font-family: "Rubik";
   font-size: 50px;
   padding: 0;
   color: #10002b4b;
 }
+.image-chiffre {
+  min-width: 70px;
+  max-width: 90px;
+  width: 10vw;
+}
+.card--special {
+  padding: 2vw 2vw !important;
+}
+.list-card {
+  margin: 5vw !important;
+}
 .step--card {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border-radius: 100%;
 }
 .step--component {
-  margin-top: 15% !important;
   margin-bottom: 5% !important;
 }
 .text--temoin {

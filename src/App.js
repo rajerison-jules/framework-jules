@@ -15,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <Banner />
       <Step />
+      <Temoin />
       <Footer />
     </div>
   );

@@ -11,15 +11,10 @@ import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="position-relative ">
       <Navbar></Navbar>
       <Banner />
-      <Card />
       <Step />
-      <Temoin />
-      <Guarantee />
-      <Honest />
-      <Question />
       <Footer />
     </div>
   );

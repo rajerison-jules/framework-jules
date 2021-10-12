@@ -11,21 +11,7 @@ export default function Section2() {
         <span className="sous--titre">Easy as One, Two, Three</span>
       </div>
       <div className=" d-flex  margin--perso2">
-        <div className=" ">
-          <Card bg="#96efff" title="Report Claim" niveau={1} />
-        </div>
-        <div className=" mt-5 pt-3 ">
-          <img src={trans1} alt="" />
-        </div>
-        <div className=" ">
-          <Card bg="#de34ed62" title="Report Claim" niveau={2} />
-        </div>
-        <div className=" mt-5 pt-3 ">
-          <img src={trans2} alt="" />
-        </div>
-        <div className=" ">
-          <Card bg="#81d37162" title="Report Claim" niveau={3} />
-        </div>
+        <Card bg="#F25A3C" title="Report Claim" niveau={1} />
       </div>
     </div>
   );

@@ -1,97 +1,65 @@
 import React from "react";
 import "./NavbarStyle.css";
-import banner from "./../../assets/img/banner-1.png";
-import illustr from "./../../assets/img/health-family-1.png";
-import icon from "./../../assets/img/tick.png";
-
+import banner from "./../../assets/images/Image.png";
+import img2 from "./../../assets/images/Icon.png";
+import img4 from "./../../assets/images/Shape.png";
+import img3 from "./../../assets/images/Icon-1.png";
+import img5 from "./../../assets/images/Blur 3.png";
+import img6 from "./../../assets/images/Blur 4.png";
+import img7 from "./../../assets/images/Blur 2.png";
+import "animate.css";
 export default function Banner() {
   return (
-    <div>
-      <div className=" m-0 mt-0 w-100 bd-highlight banner--perso  ">
-        <div className="  mt-0  m-5 mb-0 pl-5 margin--perso d-flex align-items-center position--perso   ">
-          <div className=" m-3 ml-5 titre--container ">
-            <span className="sous--titre">HELLO, WE ARE FINCORP </span>
-            <br />
-            <span className=" mt-4 h1 bold titre--perso">
+    <div className="banner--style">
+      <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-center  w-75 align-items-center position-relative content2">
+          <div className="bg-blur3">
+            <img className="im1" src={img7} />
+          </div>
+          <div className="text--ban position-absolute ">
+            <div className="titre animate__animated animate__backInDown">
               {" "}
-              Insurance <br /> made easy.
-            </span>
-            <br />
-            <span className=" mt-4 btn button--titre">Get your free Quote</span>
-            <br />
-          </div>
-          <div className="image--container pl-5 m-5  mt-0 p-5   ">
-            <img width="1000px  " src={banner} alt="banner" />
+              Stay Strong, Live long.{" "}
+            </div>
+            <div className="titre2  animate__animated animate__backInLeft">
+              {" "}
+              <span className="titre2s"> Take care </span> of your body and it
+              will take care of <span className="titre2s"> you </span>.
+            </div>
+            <div className="titre3 animate__animated animate__backInLeft">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. blandit
+              feugiat viverra est suspendisse porta tortor commodo, tellus.
+              Neque,
+            </div>
+            <div className="mt-5 ">
+              {" "}
+              <button className="btn btn-primary btn--style2">
+                Get Appointment
+              </button>
+              <button className=" btn btn-primary btn--style3">
+                View Profile
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="position--perso2 banner--perso  w-100 ">
-        <div className="w-100 text-center mb-5">
-          <span className="h3  titre--perso"> A new take on insurance</span>
-          <br />
-          <span className="sous--titre">
-            Great for individuals and business{" "}
-          </span>
-        </div>
-        <div className=" mt-5 containt--body d-flex align-items-start">
-          <div>
-            <img width="100%" src={illustr} alt="illustration" />
+        <div className="position relative content3 w-100 ">
+          <div className="imag3 ">
+            <img className="im2" src={img2} />
           </div>
-          <div className="contenue--text text-primary bold">
-            <h5>
-              Monotonectally deploy seamless data and resource maximizing
-              systems.{" "}
-            </h5>
-            <h6 className="paragraph">
-              Great for individuals and small families up to 4 members.{" "}
-            </h6>
-            <p className="paragraph small text-secondary">
-              A strong, up-to-date, employee benefits health insurance program
-              is vital for attracting and retaining good employees. It takes
-              diligence, creativity and attention to detail to ensure you are
-              getting the best “bang for your buck” each and every year.
-            </p>
-            <ul className="list-group w-100">
-              <li className="list-group-item border-0 d-flex align-items-center w-100 list--perso m-1 cursor-pointer">
-                <span>
-                  <img src={icon} alt="icon" />
-                </span>
-
-                <span className="m-2">
-                  <h6>COMPREHENSIVE INSURANCE</h6>
-                  <p className="text-secondary small paragraph">
-                    Dynamically repurpose e-business users rather than granular
-                    products.
-                  </p>
-                </span>
-              </li>
-              <li className="list-group-item border-0 d-flex align-items-center w-100 list--perso m-1">
-                <span>
-                  <img src={icon} alt="icon" />
-                </span>
-
-                <span className="m-2">
-                  <h6>SUPPORT IS JUST CALL AWAY</h6>
-                  <p className="text-secondary small paragraph">
-                    Rapidiously customize value-added platforms compliant action
-                    items.
-                  </p>
-                </span>
-              </li>
-              <li className="list-group-item border-0 d-flex align-items-center w-100 list--perso m-1">
-                <span>
-                  <img src={icon} alt="icon" />
-                </span>
-
-                <span className="m-2">
-                  <h6>SAY GOODBYE TO PAPERWORK</h6>
-                  <p className="text-secondary small paragraph">
-                    Globally deliver economically sound communities
-                    relationships.
-                  </p>
-                </span>
-              </li>
-            </ul>
+          <div className="imag2">
+            <img className="im2" src={img3} />
+          </div>
+          <div className="imag1">
+            <img className="im1" src={img4} />
+          </div>
+          <div className="">
+            <img className="imag" src={banner} />
+          </div>
+          <div className="bg-blur">
+            <img className="im1" src={img5} />
+          </div>
+          <div className="bg-blur2">
+            <img className="im1" src={img6} />
           </div>
         </div>
       </div>

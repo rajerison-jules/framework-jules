@@ -1,14 +1,27 @@
-import logo from "./../../assets/img/logo.png";
+import logo from "./../../assets/images/LOGO.svg";
+import shape from "./../../assets/images/Shapze.png";
+import img5 from "./../../assets/images/Blur 1.png";
 import "./NavbarStyle.css";
+import "animate.css";
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light m-0 mt-0 border-bottom w-100 bd-highlight position-absolute">
-      <div className=" d-md-flex align-items-center    mt-0  m-5 mb-0 pl-5 margin--perso ">
-        <a className="navbar-brand" href="/">
-          <img className="m-3" src={logo} alt="logo" />{" "}
-        </a>
+    <nav className="navbar navbar-expand-lg navbar-light m-0 m-0 p-0 w-100 position-absolute  bg-0">
+      <div className="position-absolute">
+        <img src={shape} alt="logo" />
+      </div>
+      <div className="bg-blur">
+        <img className="im1" src={img5} />
+      </div>
+      <div className=" d-flex contain--style margin--perso  position-relative p-3 ">
+        <span className="navbar-brand position-relative d-flex logo-display">
+          <img
+            className="ml-0 m-3 animate__animated animate__rubberBand"
+            src={logo}
+            alt="logo"
+          />{" "}
+        </span>
         <button
-          className="navbar-toggler  border-0 menu  "
+          className="navbar-toggler  border-0 menu  m-3"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -16,22 +29,37 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon "></span>
+          <span className="navbar-toggler-icon  "></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="/">
-                <span className="m-3">For you & familly </span>{" "}
-              </a>
+        <div
+          className="collapse navbar-collapse  w-100 position-relative navbar--style  animate__animated animate__backInDown "
+          id="navbarSupportedContent"
+        >
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item  ">
+              <span className="m-3 nav-link">Home</span>{" "}
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">
-                <span className="m-3">For Business </span>{" "}
-              </a>
+            <li className="nav-item ">
+              <span className="m-3 nav-link">Work </span>{" "}
             </li>
+            <li className="nav-item ">
+              <span className="m-3 nav-link ">About </span>{" "}
+            </li>
+            <li className="nav-item ">
+              <span className="m-3 nav-link ">Schedule </span>{" "}
+            </li>
+            <li className="nav-item ">
+              <span className="m-3 nav-link ">Reviews </span>{" "}
+            </li>
+            <li className="nav-item ">
+              <span className="m-3 nav-link ">Blog </span>{" "}
+            </li>
+            <div></div>
           </ul>
+          <div className="navbar-expand-sm w-100 d-flex align-items-center justify-content-center content--button ml-5 ">
+            <button className="btn btn-primary btn--style">Let’s Talk</button>
+          </div>
         </div>
       </div>
     </nav>

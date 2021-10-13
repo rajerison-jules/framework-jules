@@ -1,55 +1,76 @@
 import React from "react";
-import image from "./../assets/img/family-illustration.svg";
-import shield from "./../assets/img/shield-1.png";
-
+import { FaCalendar, FaGreaterThan } from "react-icons/fa";
+import EL from "./../assets/images/Ellipse 6.png";
+import BG from "./../assets/images/Image (2).png";
+import SP from "./../assets/images/Image (3).png";
+import quotes from "./../assets/images/Icones.png";
+import user1 from "./../assets/images/User-1.png";
+import user2 from "./../assets/images/User-2.png";
+import user3 from "./../assets/images/User-3.png";
+import user4 from "./../assets/images/User-4.png";
+import user5 from "./../assets/images/User.png";
+import Fleche from "./../assets/images/fleche.png";
 export default function Section7() {
   return (
-    <div className="w-100 banner--perso">
-      <div className="d-flex">
-        <div className=" list--quest text-center m-5 margin--perso">
-          <ul className="list-group">
-            <li className="titre--perso list-group-item text-primary">
-              What are the documents required for claiming?
-            </li>
-            <li className="list-group-item small sous-titre text-secondary">
-              A pre-authorization form is required in case of cashless claims
-              which are to be submitted to the TPA. Other documents might also
-              be required and you should have the knowledge of the required
-              documents.
-            </li>
-            <li className="titre--perso list-group-item text-primary">
-              Which are the network hospitals in your vicinity?
-            </li>
-            <li className="titre--perso list-group-item text-primary">
-              Will I get covered for my pre-existing illnesses?
-            </li>
-            <li className="titre--perso list-group-item text-primary">
-              Is maternity covered in health insurance policies?
-            </li>
-          </ul>
-        </div>
-        <div className="familly">
-          <img width="700" src={image} alt="" />
-        </div>
+    <div className="w-100">
+      <div className="w-100 text-center mb-5">
+        <span className="h3  titre4">
+          Let’s see Our <span className="titre4s">latest </span> news!
+        </span>
       </div>
-      <div className="w-100 d-flex align-items-center justify-content-center gar--perso2 ">
-        <div className=" m-5 gar  d-flex align-items-center justify-content-between">
-          <div className=" imgGar">
-            <img className="imgar" src={shield} alt="" />
-          </div>
-          <div className="d-flex w-100 justify-content-between align-items-center">
-            <div>
-              <h5 className="titre--perso">Insurance made easy</h5>
-              <span className="small text-secondary">
-                At fincorp, we are commited to provide top-notch services to our
-                customers.
-              </span>
-            </div>
 
-            <div>
-              <span className="btn btn-success btn-gar">
-                Get your free Quote
-              </span>
+      <div className="far">
+        <div className="  loh">
+          <div className="w-100">
+            <img className="w-100" src={BG} />
+          </div>
+          <div className="d-flex justify-content-between">
+            <span className="d-flex justify-content-center align-items-center ">
+              {" "}
+              <img src={EL} /> By Maria Calzoni
+            </span>
+            <span className="d-flex justify-content-center align-items-center ">
+              {" "}
+              <FaCalendar className="m-3" /> 21/07/2021
+            </span>
+          </div>
+          <div>
+            <h1>Join me and respectfully fight COVID misinformation.</h1>
+            <p>
+              Blandit feugiat viverra est tortor commodo, tellus. Neque,
+              pellentesque diam, id felis viverra diam. Molestie sollicitudin
+              semper ornare dolor augue auctor eget nisl.Lorem ipsum dolor sit
+              amet.
+            </p>
+            <p>
+              Blandit feugiat viverra est tortor commodo, tellus. Neque,
+              pellentesque diam, id felis viverra diam. Molestie sollicitudin
+              semper ornare dolor augue auctor eget nisl.Lorem ipsum dolor sit
+              amet.
+            </p>
+          </div>
+
+          <div></div>
+        </div>
+
+        <div className=" w-100 abn">
+          <div>
+            <div className="h4"> Latest News:</div>
+            <div className="d-flex ">
+              <div className="">
+                <img src={SP} />
+              </div>
+
+              <div className="  d-flex flex-column ">
+                <span className="h4 ">
+                  {" "}
+                  I’m called anti-science I’m just an early...
+                </span>
+                <span className="text-danger">
+                  {" "}
+                  Read More <FaGreaterThan />
+                </span>
+              </div>
             </div>
           </div>
         </div>

@@ -189,7 +189,7 @@
 .titre4s {
   text-shadow: none;
   color: rgb(49, 137, 232);
-  font-weight: 200;
+
   text-decoration: underline;
   line-height: 0px;
 }
@@ -218,6 +218,139 @@
 .bg-coeur {
   background-position: right top;
   background-repeat: no-repeat;
+  padding: 100px;
+  background-size: cover;
+}
+.imageq {
+  position: relative;
+  bottom: 25%;
+}
+.sp {
+  top: 0;
+}
+.main {
+  border-radius: 50%;
+  width: 400px;
+  height: 200px;
+  left: 20%;
+}
+.cirlce1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  top: 0;
+  left: 20%;
+}
+.cirlce2 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  left: 80%;
+  bottom: 0;
+}
+.cirlce3 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  bottom: 100%;
+  left: 50%;
+}
+.cirlce4 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+}
+.cirlce5 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  bottom: 80%;
+  left: 60%;
+}
+.cirlcef {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  bottom: 60%;
+  left: 90%;
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+}
+.me {
+  font-weight: 100;
+}
+.sec5 {
+  margin: 5vw;
+  height: 100vh;
+}
+.sec6 {
+  margin: 5vw;
+  height: 100vh;
+}
+.minicard {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 75% !important;
+  position: absolute;
+  background-color: white !important;
+  padding: 2vw;
+  border-radius: 20px;
+  bottom: -10%;
+  left: 12%;
+  z-index: 6000;
+}
+.minicard2 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 75% !important;
+  position: absolute;
+  background-color: white !important;
+  padding: 2vw;
+  border-radius: 20px;
+  bottom: -40%;
+  left: 12%;
+  z-index: 6000;
+}
+.ima {
+  width: 40vw;
+}
+.miniTt {
+  font-size: 0.9vw;
+}
+.miniT {
+  color: #0bccc5;
+}
+.miniTT {
+  color: #fcb43a;
+}
+.dis {
+  width: 75%;
+  position: relative;
+}
+.dis2 {
+  width: 75%;
+  position: relative;
+  margin-left: 34px;
+}
+.entrer {
+  display: flex;
+}
+.far {
+  display: flex;
+}
+.loh {
+  margin-left: 10vw;
 }
 @media (max-width: 992px) {
   .content--button .btn--style {
@@ -263,6 +396,64 @@
     font-size: 25px;
     text-shadow: 3px 5px 5px rgb(174, 173, 173);
     font-weight: bold;
+  }
+  .cont {
+    display: none;
+  }
+  .bg-coeur {
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-top: 20px;
+    background-size: cover;
+  }
+  .dis {
+    width: 100%;
+    position: relative;
+  }
+  .minicard,
+  .minicard2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100% !important;
+    position: static;
+    background-color: white !important;
+    padding: 5vw;
+    border-radius: 20px;
+
+    z-index: 6000;
+  }
+  .entrer {
+    display: flex;
+    flex-direction: column;
+  }
+  .ima {
+    width: 100%;
+    margin-top: 40px !important;
+  }
+  .miniTt {
+    font-size: 20px;
+  }
+  .mab {
+    margin: 0 5vw;
+  }
+  .sec5 {
+    margin: 20vw 5vw;
+    height: 100vh;
+  }
+  .sec6 {
+    margin: 30vw 0vw;
+    height: 100vh;
+  }
+  .far {
+    display: flex;
+    flex-direction: column;
+  }
+  .abn {
+    margin: 10vw;
+  }
+  .loh {
+    margin: 10vw;
+    margin-right: 0;
   }
 }
 @media (max-width: 540px) {

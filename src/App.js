@@ -14,8 +14,12 @@ function App() {
     <div className="position-relative ">
       <Navbar></Navbar>
       <Banner />
+
       <Step />
+      <Guarantee />
+      <Honest />
       <Temoin />
+      <Question />
       <Footer />
     </div>
   );

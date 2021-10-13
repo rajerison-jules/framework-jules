@@ -1,23 +1,103 @@
 import React from "react";
-import shield from "./../assets/img/shield-2.png";
-export default function Section5() {
-  return (
-    <div className="w-100 d-flex align-items-center justify-content-center gar--perso ">
-      <div className=" m-5 gar  d-flex align-items-center justify-content-between">
-        <div className=" imgGar">
-          <img className="imgar" src={shield} alt="" />
-        </div>
-        <div className="d-flex w-100 justify-content-between align-items-center">
-          <div>
-            <h5 className="titre--perso">100% Satisfaction Guarantee</h5>
-            <span className="small text-secondary">
-              We offer no questions asked refund policy for 14 days from the
-              policy date.
-            </span>
-          </div>
 
+import quote from "./../assets/images/Icone.png";
+import BG from "./../assets/images/star.png";
+import ST from "./../assets/images/star-1.png";
+import SP from "./../assets/images/Image.svg";
+import VC from "./../assets/images/Vector.svg";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
+export default function Section5() {
+  const percentage = 66;
+  return (
+    <div className=" sec5 d-flex align-items-center">
+      <div className="  entrer align-items-start w-100 ">
+        <div className=" p-5 pt-0 dis ">
+          <div className=" minicard d-flex ">
+            <div className="w-100">
+              {" "}
+              <h6 className="miniT">Dr. Kierra Calzoni</h6>
+              <p className="miniTt">
+                Lorem ipsum dolor sit amet conct adipiscing elit. Sed tpus donec
+                ultricies molestie vel.
+              </p>
+              <span>
+                {" "}
+                <img src={VC} /> +88 01924 184 461
+              </span>
+            </div>
+            <div className="w-50">
+              <div>
+                Rate: <img src={BG} />
+                <img src={BG} />
+                <img src={BG} />
+                <img src={ST} />
+              </div>
+              <div style={{ width: 90, height: 90 }}>
+                <CircularProgressbar
+                  value={percentage}
+                  text={`${percentage}%`}
+                  styles={buildStyles({
+                    // Rotation of path and trail, in number of turns (0-1)
+                    rotation: 0.25,
+
+                    // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+                    strokeLinecap: "butt",
+
+                    // Text size
+                    textSize: "16px",
+
+                    // How long animation takes to go from one percentage to another, in seconds
+                    pathTransitionDuration: 0.5,
+
+                    // Can specify path transition in more detail, or remove it entirely
+                    // pathTransition: 'none',
+
+                    // Colors
+                    pathColor: `rgba(62, 152, 199, ${percentage / 100})`,
+                    textColor: "#000",
+                    trailColor: "#d6d6d6",
+                    backgroundColor: "#3e98c7",
+                  })}
+                />
+                ;
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <img className="ima" src={SP} />
+          </div>
+        </div>
+        <div className=" mab">
           <div>
-            <span className="btn btn-success btn-gar">Get your free Quote</span>
+            <div className=" w-100">
+              <h2 className="text-uppercase">About Me</h2>
+              <h1 className="me">I'm Dr. Kierra Calzoni.</h1>
+            </div>
+            <div className=" w-100">
+              <span className="h3  titre4">
+                Actually, I love to care{" "}
+                <span className="titre4s">Patient.</span>
+              </span>
+              <div className="mt-5 pt-5">
+                <p>
+                  Blandit feugiat viverra est{" "}
+                  <strong>
+                    {" "}
+                    <u>Suspendisse porta</u>{" "}
+                  </strong>{" "}
+                  tortor commodo.
+                </p>
+                <p>
+                  <strong>
+                    <u>Tempor proin</u>
+                  </strong>{" "}
+                  id aliquet lacinia vulputate non. Rhoncus, blandit feugiat
+                  viverra est suspendisse porta tortor commodo, tellus. Neque.
+                </p>
+              </div>
+            </div>
+            <button className="btn btn-primary btn--style">Let’s Talk</button>
           </div>
         </div>
       </div>
